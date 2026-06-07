@@ -1,0 +1,10 @@
+---
+
+# A patch to draw ghost fog in front of layer 0.
+
+source_files: []
+hooks:
+  - name: FrontGhostFog
+    type: patch
+    addr_pal: 0x800eb260
+    data: '4080000c'
